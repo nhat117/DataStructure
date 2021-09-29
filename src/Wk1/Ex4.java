@@ -19,7 +19,7 @@ public class Ex4 {
         //IF even
         if(in % 2 == 0) {
             return stepcalc(in/2) + 1 ;
-            //If oods
+            //If ods
         } else {
             return stepcalc(in * 3 + 1) + 1;
         }
